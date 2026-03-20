@@ -1,0 +1,11 @@
+name: GitHub Actions Demo
+
+on: [push]
+jobs:
+  my_job:
+    name: hello
+    runs-on: ubuntu-latest
+    steps:
+      - name: run python script
+        run: |
+         echo "Hello World!"
